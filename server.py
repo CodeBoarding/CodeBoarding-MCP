@@ -1,2 +1,3 @@
-from mcp.server.fastmcp import FastMCP
-mcp = FastMCP("mix_server")
+from fastmcp import FastMCP
+
+server = FastMCP("codeboarding_mcp")
